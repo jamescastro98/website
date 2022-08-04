@@ -6,13 +6,13 @@ import c4me from '../assets/c4me.png';
 import typosquat from '../assets/typosquat.png';
 import cc from '../assets/cc.png';
 
-function Proj({closeExp}) {
+function Proj({closeProj}) {
     
     return (
         <Modal
             title={'Projects' }
-            closeModal={closeExp}
-            buttons={[{ value: "Close", onClick: closeExp  }]}
+            closeModal={closeProj}
+            buttons={[{ value: "Close", onClick: closeProj  }]}
             style={{
                 left:'36vw',
                 top: '10vh',
